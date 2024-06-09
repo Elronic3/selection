@@ -1,0 +1,70 @@
+.btn-primary,
+.nav-link,
+.list-group-item,
+.row,
+.card {
+ 	transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+
+.row-active,
+.list-group-item.active,
+.list-group-item:active {
+  	background-color: #00B207 !important;
+  	border-color: #00B207 !important;
+}
+
+.btn-outline-light.custom-outline-light-hover:hover {
+	color: #ffffff !important;
+	background-color: #00B207 !important;
+	border-color: #00B207 !important;
+}
+  
+.btn-outline-light.custom-outline-light-hover:active,
+.btn-outline-light.custom-outline-light-hover:focus {
+	color: #ffffff !important;
+	border-color: none !important; 
+	box-shadow: none !important; 
+	outline: none !important;
+}
+
+.device-card {
+	width: 200px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.device-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
+}
+
+.custom-button-admin {
+	font-weight: 500;
+	font-size: 22px;
+	border-radius: 50px; /* Округленные углы */
+	border: 1px solid #00B207; /* Цвет обводки */
+	background-color: transparent; /* Прозрачный фон */
+	color: #00B207; /* Цвет текста */
+	transition: all 0.5s ease, color 0.3s ease; /* Плавный переход для фона и текста */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px;
+}
+  
+.custom-button-admin svg {
+	color: #00B207;
+	margin-left: 10px;
+}
+  
+.custom-button-admin:hover {
+	background-color: #00B207; /* Цвет при наведении */
+	color: #fff; /* Цвет текста при наведении */
+	border: 1px solid #00B207; /* Цвет обводки при наведении */
+}
+
+.custom-button-admin:hover svg {
+	color: #fff;
+}
