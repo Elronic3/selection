@@ -21,12 +21,6 @@ const DeviceItem = ({device}) => {
 				/>
 				<div 
 					className="d-flex justify-content-between align-items-center"
-					style={{ paddingTop: '2px', paddingLeft: '30px', color: '#817D7D', fontSize: '14px' }}
-				>
-				<div>Вентилятори</div>
-				</div>
-				<div 
-					className="d-flex justify-content-between align-items-center"
 					style={{ padding: '2px', marginLeft: '10px', fontWeight: '600' }}
 				>
 					{device.name}
